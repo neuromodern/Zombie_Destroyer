@@ -1,0 +1,241 @@
+#loaderBG
+{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #353430;
+  z-index: 400;
+}
+
+body, td, p, div
+{
+  font-family: 'Roboto';
+}
+
+
+body{
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #353430;
+overflow: hidden;
+width: 100vw;
+height: 100vh;	
+}
+
+#renderCanvas
+{
+width: 100vw;
+height: 100vh;
+position: absolute;
+top: 0px;
+left: 0px
+outline: none;
+-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+/* mobile webkit */
+background: transparent;
+}
+
+
+#topHeader
+{
+width: 50vmin;
+height:25vmin;
+top: 2vmin;
+left: 5vw;
+position: absolute;
+font-size: 5vmin;
+color: #ffffff;
+text-transform: uppercase;
+font-weight: 200;
+}
+
+
+#bottomHeader{
+width: 98vmin;
+height:1vmin;
+bottom: 2vmin;
+left: 2vmin;
+position: absolute;
+font-size: 1vmin;
+color: #ffffff;
+text-transform: uppercase;
+font-weight: 400;	
+}
+
+
+#timelineDiv
+{
+width: 90vw;
+height: 0.3vw;
+position: absolute;
+left: 5vw;
+bottom: 8vh;
+background-color: #FFFFFF;
+}
+
+#timelinePoint1, #timelinePoint2, #timelinePoint3, #timelinePoint4, #timelinePoint5, #timelinePoint6
+{
+width: 2vh;
+height: 2vh;
+background-color: #FFFFFF;
+bottom: 7.2vh;
+
+position: absolute;
+border-radius: 50%;
+}
+
+
+#timelinePoint1{
+left: 5vw;	
+}
+
+#timelinePoint2{
+left: 23vw;	
+}
+
+#timelinePoint3{
+left: 41vw;	
+}
+
+#timelinePoint4{
+left: 59vw;	
+}
+
+
+#timelinePoint5{
+left: 77vw;	
+}
+
+#timelinePoint6{
+left: 95vw;	
+}
+
+
+@media screen and ( max-width: 373px ){
+
+
+  @-ms-viewport {
+    width: 373px;
+  }
+  @-o-viewport {
+    width: 373px;
+  }
+  @viewport {
+    width: 373px;
+  }
+
+  html, body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+
+
+  .xr-button-overlayFullScreen
+  {
+top: calc(100vh - 58px) !important;
+
+  }
+
+
+}
+
+
+
+.xr-button-overlay
+{
+bottom: auto !important;
+top: calc(56px + 85vw - 42px - 20px) !important;
+height: 42px !important;
+width: 42px !important;
+right: 12px !important;
+}
+
+.babylonVRicon
+{
+height: 42px !important;
+width: 42px !important;
+margin: 0px !important;
+}
+
+#arrow1Div
+{
+left: 0;
+position: absolute;
+top: 50vh;
+left:0;
+width: 7vmin;
+height: 7vmin;
+margin-top:-3.5vmin;
+}
+
+#arrow2Div
+{
+position: absolute;
+top: 50vh;
+right: 0;
+width: 7vmin;
+height: 7vmin;
+margin-top:-3.5vmin;
+}
+
+#arrow1
+{
+width: 7vmin;
+height: 7vmin;
+transform: rotate(180deg);
+}
+
+#arrow2
+{
+width: 7vmin;
+height: 7vmin;
+}
+
+
+
+
+
+
+
+#slide0
+{
+color: #ffffff;
+position: absolute;
+width: 40vw;
+top: 55vh;
+left: 5vw;
+height: 30vh;
+font-size: 1.5vh;
+}
+
+
+
+@media (orientation: portrait) {
+#slide0
+{
+color: #ffffff;
+position: absolute;
+width: 90vw;
+top: 65vh;
+left: 5vw;
+height: 350vh;
+font-size: 1.2vh;
+}	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
