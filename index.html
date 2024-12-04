@@ -174,7 +174,19 @@ font-family: pixel, monospace, monospace;
 <link rel="stylesheet" href="css/style_ui.css">
 
 
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<script>
+    window.Telegram.WebApp.ready();
+    window.Telegram.WebApp.expand();
+    window.Telegram.WebApp.enableClosingConfirmation();
+    window.Telegram.WebApp.isClosingConfirmationEnabled = true;
+    window.Telegram.WebApp.disableVerticalSwipes();
+    window.Telegram.WebApp.isVerticalSwipesEnabled = false;
+    window.Telegram.WebApp.setHeaderColor("#353430");
+    window.Telegram.WebApp.setBackgroundColor("#353430");
+//window.Telegram.WebApp.isVerticalSwipesEnabled = false;
 
+</script>
 <script src="app/howler.js"></script>
 <script src="app/babylon.min.js"></script>
 <script src="app/babylonjs.loaders.min.js"></script>
