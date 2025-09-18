@@ -7,6 +7,7 @@ Play online: <a href="https://neuromodern.github.io/Zombie_Destroyer/">https://n
  
  Zombie destroyer Release 1.0.2 
 -  Music
+
  Zombie destroyer Release 1.0.1 
 -  UI/GUI: Balances, HP bars, and screens reimagined in stunning retro pixel art.
 -  Retro VHS Shader: Immerse yourself in nostalgic 80s vibes with our new glitchy VHS shader effects.
