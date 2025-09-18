@@ -6,7 +6,7 @@ Prepare for an adrenaline-pumping retro-styled adventure in Zombie Destroyer –
 Play online: <a href="https://neuromodern.github.io/Zombie_Destroyer/">https://neuromodern.github.io/Zombie_Destroyer/</a>
  
  Zombie destroyer Release 1.0.2 
--  Music
+-  Music https://www.producer.ai/song/d2c09897-4f89-4362-8cc3-3e46e758554c
 
  Zombie destroyer Release 1.0.1 
 -  UI/GUI: Balances, HP bars, and screens reimagined in stunning retro pixel art.
