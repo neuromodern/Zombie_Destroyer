@@ -1,5 +1,6 @@
 # ☠💤☠Zombie Destroyer
 Fly, Defend, Survive.
+<img src="ZombieDestroyer.png">
 
 Prepare for an adrenaline-pumping retro-styled adventure in Zombie Destroyer – a vintage style game where your mission is simple: obliterate waves of the undead and protect what’s left of civilization. 💀 
 
